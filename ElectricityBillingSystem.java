@@ -17,7 +17,6 @@ public class ElectricityBillingSystem extends Frame implements ActionListener {
         Font labelFont = new Font("Arial", Font.BOLD, 20);
         Font textFont = new Font("Arial", Font.PLAIN, 20);
         Font buttonFont = new Font("Arial", Font.BOLD, 16);
-
         users = new ArrayList<User>();
         users.add(new User("Mythili", "9025930150", "EB001", "123 Main St"));
         users.add(new User("Jegan", "8883139860", "EB002", "456 Elm St"));
