@@ -5,9 +5,6 @@ import java.util.ArrayList;
 
 import bill.EBBILL.User;
 public class EBBILL extends Frame implements ItemListener, ActionListener{
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 	private ArrayList<User> users;
 	String msg;
