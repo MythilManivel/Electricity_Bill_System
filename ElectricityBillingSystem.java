@@ -2,7 +2,6 @@ package bill;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
-
 public class ElectricityBillingSystem extends Frame implements ActionListener {
 	private ArrayList<User> users;
     TextField txtInput, txtMeterReading, txtAmount;
@@ -175,3 +174,4 @@ public class ElectricityBillingSystem extends Frame implements ActionListener {
         }
     }
 }
+
